@@ -5,28 +5,32 @@
 }
 
 body{
-  
- 
-
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .calc-container{
     
     width: max-content;
-    margin: auto;
+    
 }
 
 .display{
-    width:100;
+    max-width: 400px;
     background-color: darkgray;
-    height: 50px;
+
+    min-height: 80px;
+    max-height: auto;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
+    
     padding: 0 15px 0 8px ;
-    height: auto;
+    
     color: white;
 }
 
@@ -53,7 +57,8 @@ button{
 }
 
 
-.btn-number {
+.btn-number,
+.btn-decimal{
     background-color:rgba(109, 245, 255, 0.2);
   
   }
