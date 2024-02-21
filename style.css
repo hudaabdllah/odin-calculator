@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  
+ 
+
+}
+
+.calc-container{
+    
+    width: max-content;
+    margin: auto;
+}
+
+.display{
+    width:100;
+    background-color: darkgray;
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0 15px 0 8px ;
+    height: auto;
+    color: white;
+}
+
+.previous-number{
+    font-size: 28px ;
+}
+
+.current-number{
+    font-size: 38px;
+}
+
+.buttons{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    flex: 1 25%;
+    padding: 15px;
+    font-size: 26px;
+    outline: none;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+
+.btn-number {
+    background-color:rgba(109, 245, 255, 0.2);
+  
+  }
+  
+  .btn-operator {
+    background-color:rgb(255, 237, 202);
+  }
+  
+  .btn-equals {
+    background-color:rgb(200, 255, 200);
+  }
+  
+  .btn-clear {
+     background-color:rgb(253, 168, 185);
+  }
